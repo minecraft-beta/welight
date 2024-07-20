@@ -1,0 +1,46 @@
+body {
+    background-image: url("bg.jpg");
+}
+
+.hello {
+    font-family: "Playwrite NZ", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: large;
+}
+
+.btn {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    background: linear-gradient(109.6deg, rgb(255, 219, 47) 11.2%, rgb(253, 173, 0) 100.2%);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 150px;
+    line-height: 4%;
+}
+
+.btn:hover {
+    background: linear-gradient(109.6deg, rgb(249, 15, 3) 11.2%, rgb(239, 70, 61) 100.2%);
+}
+
+.btnTxt {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
